@@ -13,14 +13,27 @@ A lightweight, cross-platform system resource monitor written in C++ that intera
 
 ## 💻 How to Run
 
+### Option 1: Manual (Terminal)
 1. **Clone the repository:**
 `git clone https://github.com/andraokta/cpp-sysmon.git`
 
-2. **Compile the source code:**
-`g++ main.cpp -o sysmon`
+2. **Enter the project directory:**
+`cd cpp-sysmon`
 
-3. **Execute the program:**
-`./sysmon`
+3. **Compile the source code:**
+- **Linux/macOS:** `g++ main.cpp -o sysmon`
+- **Windows:** `g++ main.cpp -o sysmon.exe`
+
+4. **Run the program:**
+- **Linux/macOS:** `./sysmon`
+- **Windows:** `.\sysmon.exe`
+
+---
+
+### Option 2: VS Code (Easiest Way)
+1. Open the project folder in **VS Code**.
+2. Install the **Code Runner** extension.
+3. Open `main.cpp` and click the **Play Button** (▷) in the top right corner.
 
 ## 🧠 Technical Overview
 This project utilizes **C++ Preprocessor Directives** to handle cross-platform compatibility at compile-time:
